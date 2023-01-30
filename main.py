@@ -6,10 +6,6 @@ from selenium.common.exceptions import NoSuchElementException
 import requests
 
 
-def get_base_path():
-    return os.path.dirname(os.path.realpath(__file__))
-
-
 def web_scrape():
 
     driver = webdriver.Firefox()
